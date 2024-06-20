@@ -7,7 +7,7 @@ const bot = new aoijs.AoiClient({
          // vous n'aurez pas forcément besoin de tous les intents et de tous les évents mais mettez les, ça évite les crashs
         database: {
             type:'default',
-            db:require('dbdjs.db'),
+            db:require('aoi.db'),
             path:"./db/",
             tables:["main"],
             promisify:false
